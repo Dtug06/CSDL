@@ -1,7 +1,6 @@
 
 CREATE DATABASE IF NOT EXISTS bai01_class_student;
 USE bai01_class_student;
--- 3. Tạo bảng Class
 CREATE TABLE Class (
     class_id INT PRIMARY KEY,
     class_name VARCHAR(50) NOT NULL,
